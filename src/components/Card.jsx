@@ -9,7 +9,7 @@ const Card = ({item}) => {
 
 
   return (
-    <Grid key={item.id} item height="auto">
+    <Grid key={item.id} item height="auto" >
    <article class="card">
             <header class="card__thumb">
                 <a href="#"><img src={item.image_url}/></a>

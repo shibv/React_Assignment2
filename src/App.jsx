@@ -1,5 +1,4 @@
 import { useState, useEffect, useContext } from "react";
-import axios from "axios";
 import "./App.css";
 import {
   Container,
@@ -40,13 +39,12 @@ function App() {
               color="black"
               textAlign="center"
             >
-              MUI
+              React Assignment
             </Typography>
             <TextField
-              label="serach card name"
+              label="search card "
               variant="outlined"
               style={{ width: "50%", color: "white" }}
-      
               value={search}
               onChange={(e) => setSearch(e.target.value)}
             ></TextField>
